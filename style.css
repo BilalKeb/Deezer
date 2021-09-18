@@ -18,14 +18,54 @@ header {
   justify-content: start;
 }
 .emo-picture {
-  height: 300px;
+  height: 400px;
   width: 700px;
 }
 
-.Partie2-h2 {
-  height: 5px;
-  width: 5px;
-  justify-content: space-around;
+#container2 {
+  display: flex;
+  justify-content: center;
+}
+.elementphone {
+  height: 300px;
+  width: 250px;
+}
+
+.textCon2 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 15%;
+}
+.textCon2 h2 {
+  margin-right: 10px 5% 30% 10%;
+}
+
+#container3 {
+  display: flex;
+  justify-content: space-between;
+  background: #ef5466;
+  align-items: center;
+}
+
+.red-box-C4 {
+  background: #ef5466;
+
+  align-items: center;
+}
+
+.icone {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  width: 50%;
+}
+
+.abonnement h1 {
+  margin: 8% 10% 1% 30%;
+}
+.abonnement h5 {
+  margin: 5% 10% 2% 40%;
 }
 
 .red {
@@ -35,16 +75,6 @@ header {
   background-color: crimson;
 }
 
-.telephone h4 {
-  width: 442px;
-  height: 126px;
-  justify-content: space-between;
-  color: antiquewhite;
-}
-
-.blue {
-  background: white;
-}
 .favorite-styled {
   border-radius: 10px;
   border-color: blue;
@@ -62,9 +92,6 @@ header {
   text-decoration: none;
   color: black;
 }
-.profile picture {
-  justify-content: none;
-}
 
 i .btn {
   text-align: left;
@@ -80,9 +107,6 @@ hr {
   size: 100%;
   width: 100%;
 }
-.abonnement {
-  background: lightcoral;
-}
 
 body {
   background-color: white;
@@ -92,29 +116,5 @@ body {
 .col-size {
   display: flex;
   background: blue;
-}
-
-.col-size2 {
   justify-content: center;
-}
-
-.col-size3 {
-  display: inside;
-  justify-content: flex-end;
-}
-
-/* telephone */
-.telephone img {
-  width: 100px;
-  background: lightcoral;
-}
-.name {
-  justify-content: flex-end;
-}
-.abonnement {
-  justify-content: flex-end;
-  background: lime;
-}
-.icone {
-  background: lime;
 }
